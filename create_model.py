@@ -4,7 +4,7 @@ from tqdm import tqdm
 from spacy.tokens import DocBin
 from sklearn.model_selection import train_test_split
 
-#Cite the code
+#Code adapted from https://www.machinelearningplus.com/nlp/custom-text-classification-spacy/
 clickbait = pd.read_csv("shuffled_data.csv")
 nlp = spacy.load("en_core_web_lg")
 
